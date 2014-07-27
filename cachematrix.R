@@ -3,8 +3,8 @@
 ## Two functions getMatrix and setMatrix get and set a matrix
 ## The getInverse function returns the matrix inverse from the cache
 ## The setInverse function caches the inverse of the matrix
-## The cache here refers to the parent function, i.e. the environment
-## of makeCacheMatrix
+## The cache here refers to the parent function , i.e. the environment
+## of makeCacheMatrix  
 
 makeCacheMatrix<- function(m=matrix())
 {
